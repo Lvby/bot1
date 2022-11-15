@@ -1,0 +1,155 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "How are you doing",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "hello",
+          "good morning",
+          "good evening",
+          "hey there"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "job",
+        "patterns": [
+          "I am a nurse.",
+          "Hi, I am looking for a job",
+          "do you have any jobs available now?",
+          "I am a nurse, I 'm looking fo a job",
+          "Hey, I would like to work for your ageny",
+          "I want to check out what shifts are available",
+          "I am a healthcare assistant, do you have any shifts open now",
+          "i am looking for a job, do you have any available now?",
+          "I want to find a job to get some extra money :)"
+        ],
+        "responses": [
+          "Hi, welcome. We have a lot of jobs are open now. Would you mind filling the application from this link https:www.google.com and our job staff will go back to you within one day during weekdays.",
+          "Great,we do have lots of shifts are available.   Here is the link https://www.google.com please fill the form and our customer service will contact you."
+        ]
+      },
+      {
+        "tag": "challenge",
+        "patterns": [
+          "are you a bot?",
+          "are you a human?",
+          "am I talking to a bot?",
+          "am I talking to a human?"
+        ],
+        "responses": [
+          "Yes, I am an AI bot using maching learning and natural language processing technique to answer your questions. When needed, I can forward your question to my human colleagues and they will reach you within two working days."
+        ]
+      },
+      {
+        "tag": "mood_happy",
+        "patterns": [
+          "perfect",
+          "very good",
+          "great",
+          "amazing",
+          "wonderful",
+          "I am feeling very good",
+          "I am great",
+          "I'm good",
+          "nice"
+        ],
+        "responses": [
+         "Glad to hear that :D"
+        ]
+      },
+    
+      {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your office working hours","what time is your office open", "hours of operation", "what are your business hours?"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye","no, thanks, have a nice day there"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Thanks, have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Sure, will do","Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "mood_unhappy",
+        "patterns": [
+          "sad",
+          "very sad",
+          "unhappy",
+          "bad",
+          "very bad",
+          "awful",
+          "terrible",
+          "not very good",
+          "extremely sad",
+          "so sad"
+        ],
+        "responses": [
+          "Sorry to hear about that, anything else I can do for you?",
+          "Sorry for that, do you need any other help?"
+        ]
+      },
+      {
+        "tag": "end",
+        "patterns": [
+          "sure will do",
+          "ok, i will fill it",
+          "thanks will send my application to your customer service",
+          "thank you i will fill the form",
+          "thanks, i will contact your staff then"
+        ],
+        "responses": [
+         "Thank you. Do you have any other questions?"
+        ]
+      },
+      {
+        "tag": "contact",
+        "patterns": [
+          "what is your email address",
+          "do you have any phone numbers",
+          "what are your contact phone number",
+          "I want to make a complain, how can i contact you",
+          "How can I reach your manager?",
+          "Can you ask your manager to call us?",
+          "I would sent you a letter, what is your company address?"
+        ],
+        "responses": [
+          "You can find more details from this contact link https://www.google.com"
+        ]
+      },
+      {
+        "tag": "deny",
+        "patterns": [
+          "no",
+          "never",
+          "I don't think so",
+          "don't like that",
+          "no way",
+          "not really",
+          "you are stupid"
+        ],
+        "responses": [
+          "Oh, sorry to hear about that"
+        ]
+      }
+    ]
+  }
+  
