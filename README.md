@@ -1,14 +1,15 @@
-# bot1
+# My hybrid bot
 
-Enlighted by [this project](https://github.com/python-engineer/pytorch-chatbot/blob/master/chat.py), added check user roles method to make those answers more relevant, increased also a couple of layers in neuron networks.This is a test for my another application. 
-Background: The bot Sam works for a nursing job agency. He tries to answer questions raised by poential employers and nurses (not registered yet). The intents json files are seperated for each user group. After user answered if he/she is nurse or employer, the question will be answered based on relevant pth files.
+Enlighted by [this project](https://github.com/python-engineer/pytorch-chatbot/blob/master/chat.py), added check user roles method to make those answers more relevant, increased also a couple of layers in neuron networks.This is a test for my another application. You can make answers more accurate by asking user to give answers to more choices. A better orginized intents.json file could also improve user experiences. 
+
+Background: The bot Sam works for a nursing job agency. He tries to answer questions raised by poential employers and nurses (both are not current users). The intents json files are seperated for each user group. After user answered if he/she is nurse or employer, the question will be answered based on corresponding pth files.
 
 # How to use it:
 
 Django index page and view not ready yet.  So your interaction with bot will be implemented through terminal.
 
-path >core
-# run python train.py to train (if needed)
+go to path >core
+# run python train.py to train (option if you want to train the model)
 run python chat.py 
 
 #this is the result
