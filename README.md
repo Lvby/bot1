@@ -9,29 +9,51 @@ Background: The bot Sam works for a nursing job agency. He tries to answer quest
 Django index page and view not ready yet.  So your interaction with bot will be implemented through terminal.
 
 go to path >core
-# run python train.py to train (option if you want to train the model)
+
+---run python train.py to train (optional if you want to train the model)
+
 run python chat.py 
 
 #this is the result
 
 [nltk_data]   Package punkt is already up-to-date!
+
 nurse select 1, employer select 2: 2
+
 Let's chat! (type 'quit' to exit)
+
 You: hello
+
 Sam: Hey :-)
+
 You: i am a nursing manager, we need some nurses
+
 Sam: Great! Please visit potential employer page https://www.google.com and our staff will contact you within one hour in business days.
-You: thanks 
+
+You: thanks
+
 Sam: Happy to help!
+
 You: are you a bot
+
 Sam: Yes, I am an AI bot using maching learning and natural language processing technique to answer your questions. When needed, I can forward your question to my human colleagues and they will reach you within two working days.
+
 You: nice, you are smart
+
 Sam: Glad to hear that :D
+
 You: BTW, what are your office hours
+
 Sam: We are open 7am-4pm Monday-Friday!
+
 You: Great. Do you have any emails that I can write to your customer service
+
 Sam: Happy to help!
+
 You: do you have any emails
+'
 Sam: Happy to help!
+
 You: you are dummy now
+
 Sam: Thank you, do you need any other help?
